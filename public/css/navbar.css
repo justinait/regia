@@ -5,9 +5,20 @@
     position: sticky;
     z-index: 10;
     top: 90vh;
+    padding: 2%;
 }
 
 .navbarItem {
     width: 50px;
 }
+
+.navbarItem1 {
+    width: 40px;
+}
+
+.navbarItem2 {
+    width: 60px;
+}
+
+
 
