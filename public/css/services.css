@@ -1,0 +1,25 @@
+.servicesContainer {
+    display: flex;    
+    flex-direction: row;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.serviceContainer {
+    width: 45%;
+    background-color: #FF6FB4;
+}
+
+.servicePhoto {
+    width: 100%;
+}
+
+.service {
+    color: yellow;
+}
+
+.serviceDescription {
+    display: none;
+}

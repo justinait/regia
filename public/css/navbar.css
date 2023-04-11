@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #FD0072;
+    height: 10vh;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    top: 90vh;
+}
+
+.navbarItem {
+    width: 50px;
+}
+
