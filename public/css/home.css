@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .web {
@@ -40,15 +46,15 @@
     }
 }
 
+.services {    
+    background-color: #FD0072;
+}
 /* 
 
 .about {
     height: 290vh;
 }
 
-.services {    
-    height: 90vh;
-}
 
 .myWork {
     height: 90vh;

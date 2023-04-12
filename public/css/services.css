@@ -10,16 +10,32 @@
 .serviceContainer {
     width: 45%;
     background-color: #FF6FB4;
+    /* padding: 1%; NO*/
+    margin: 1%;
+    border: #FFF223 2px solid;
+    border-radius: 10px;
 }
 
 .servicePhoto {
     width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-bottom: #FFF223 3px solid;
+    border-radius: 10px 10px 0 0;
 }
 
 .service {
-    color: yellow;
+    color: #FFF223;
+    padding: 1%;
+    margin: 2%;
+    text-align: center;
+    font-size: 17px;
 }
 
 .serviceDescription {
+    display: none;
+}
+
+.servicePhoto:hover {
     display: none;
 }

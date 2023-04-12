@@ -19,6 +19,8 @@
 .navbarItem2 {
     width: 60px;
 }
-
-
+/* poner 1 y 2 tmb */
+.navbarItem:focus {
+    color: black;
+}
 
