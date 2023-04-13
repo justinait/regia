@@ -6,21 +6,36 @@
     z-index: 10;
     top: 90vh;
     padding: 2%;
+    box-shadow: 0 0 10px #FD0072;/* esto asi no igual, me dijo fucsia mas oscuro, nose ver bn */
+    border-top: pink 2px solid;
 }
 
 .navbarItem {
-    width: 50px;
+    width: 45px;
 }
 
-.navbarItem1 {
+.toBig {
     width: 40px;
 }
 
-.navbarItem2 {
+.toSmall {
     width: 60px;
 }
+
+.navbarItemActive {
+    display: none;
+    width: 50px;
+}
+
 /* poner 1 y 2 tmb */
 .navbarItem:focus {
     color: black;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
