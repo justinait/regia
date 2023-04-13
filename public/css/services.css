@@ -34,8 +34,18 @@
 
 .serviceDescription {
     display: none;
+    color: #FFF223;
 }
 
 .servicePhoto:hover {
     display: none;
+}
+
+.servicePhoto:hover ~ .serviceDescription{
+    display: block;
+}
+
+.servicePhoto:hover ~ .service{
+    margin-top: 60%;
+    /* obvio q no, pero voy acomodando */
 }
