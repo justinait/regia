@@ -21,47 +21,47 @@
 
   <!-- js -->
   <!-- si no funciona probarlo dentro del body -->
-  
+  <!-- <script src="js/menu.js"></script> -->
+
   <title>REGIA</title>
 
 </head>
 
 <body class="web">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
   <nav class="navbar">
     <a href="#home">
-      <img src="./public/img/navbar/Menu-18.png" class="navbarItem toBig hide" alt="">
-      <img src="./public/img/navbar/Menu-25.png" class="navbarItemActive toBig show" alt="">
+      <img src="./public/img/navbar/Menu-18.png" class="navbarItem toBig" alt="">
+      <!-- <img src="./public/img/navbar/Menu-25.png" class="navbarItemActive toBig show" alt=""> -->
     </a>
     <a href="#about">
       <img src="./public/img/navbar/Menu-19.png" class="navbarItem" alt="">
-      <img src="./public/img/navbar/Menu-26.png" class="navbarItemActive" alt="">
+      <!-- <img src="./public/img/navbar/Menu-26.png" class="navbarItemActive" alt=""> -->
     </a>
     <a href="#services">
       <img src="./public/img/navbar/Menu-20.png" class="navbarItem toSmall" alt="">
-      <img src="./public/img/navbar/Menu-27.png" class="navbarItemActive toSmall" alt="">
+      <!-- <img src="./public/img/navbar/Menu-27.png" class="navbarItemActive toSmall" alt=""> -->
     </a>
     <a href="#myWork">
       <img src="./public/img/navbar/Menu-21.png" class="navbarItem" alt="">
-      <img src="./public/img/navbar/Menu-28.png" class="navbarItemActive" alt="">
+      <!-- <img src="./public/img/navbar/Menu-28.png" class="navbarItemActive" alt=""> -->
     </a>
     <a href="#mySpace">
       <img src="./public/img/navbar/Menu-22.png" class="navbarItem" alt="">
-      <img src="./public/img/navbar/Menu-29.png" class="navbarItemActive" alt="">
+      <!-- <img src="./public/img/navbar/Menu-29.png" class="navbarItemActive" alt=""> -->
     </a>
     <a href="#spotify">
       <img src="./public/img/navbar/Menu-23.png" class="navbarItem" alt="">
-      <img src="./public/img/navbar/Menu-30.png" class="navbarItemActive" alt="">
+      <!-- <img src="./public/img/navbar/Menu-30.png" class="navbarItemActive" alt=""> -->
     </a>
     <a href="#contact">
       <img src="./public/img/navbar/Menu-24.png" class="navbarItem toBig" alt="">
-      <img src="./public/img/navbar/Menu-31.png" class="navbarItemActive toBig" alt="">
+      <!-- <img src="./public/img/navbar/Menu-31.png" class="navbarItemActive toBig" alt=""> -->
     </a>
     
   </nav>  
 
+  
   <div class="sections">
 
     <section class="home" id="home">
@@ -71,13 +71,13 @@
       <div id="carouselExampleAutoplaying" class="carousel slide" class="carousel" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/public/img/2.jpg" class="d-block w-100" alt="...">
+            <img src="/public/img/home/carrusel inicio-25.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/public/img/3.jpg" class="d-block w-100" alt="...">
+            <img src="/public/img/home/carrusel inicio-26.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/public/img/4.jpg" class="d-block w-100" alt="...">
+            <img src="/public/img/home/carrusel inicio-27.png" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -113,7 +113,7 @@
         pierdas tiempo maquillandote todos los días. 
       </p>
 
-      <img src="/public/img/Maru-14.png" width="500" alt="">
+      <img src="/public/img/Maru-14.png" width="400" class="maru" alt="">
 
       <p class="aboutPresentation">
         <strong>          ¿Te imaginás poder despertar cada mañana
@@ -147,11 +147,14 @@
 
       <p class="italic">¡Bienvenida otra vez!</p>
 
-      <img src="/public/img/regia-fucsia.png" width="300" alt="">
+      <img src="/public/img/regia-fucsia-rosa.png" width="300" alt="">
 
-      <p>seguime en mis redes</p>
+      <p>seguime en mis redes!</p>
+
       <div class="social">
-
+        <img src="/public/img/fb.png" width="50" alt="">
+        <img src="/public/img/ig.png" width="50" alt="">
+        <img src="/public/img/wsp.png" width="50" alt="">
       </div>
 
     </section>
@@ -164,39 +167,64 @@
           
         <div class="serviceContainer">
           <img src="/public/img/services/Microblading.jpg" class="servicePhoto" alt="...">
-          
-          <p class="serviceDescription italic">Permite diseñar cejas más densas, modificar su forma o
-            crear una ceja desde cero, dibujando pelo por pelo.</p>
-          
+          <div class="serviceDescription">
+            <p class="italic">Permite diseñar cejas más densas, modificar su forma o
+              crear una ceja desde cero, dibujando pelo por pelo.</p>  
+            <button> + info </button>
+          </div>
           <h6 class="service">Microblading</h6>
         </div>
         <div class="serviceContainer">
           <img src="/public/img/services/microshading.jpg" class="servicePhoto" alt="...">
-          <p class="serviceDescription italic">Se logra la sensación de una
-            ceja maquillada a través del sombreado por puntos.</p>
+          <div class="serviceDescription">
+            <p class="italic">Se logra la sensación de una
+              ceja maquillada a través del sombreado por puntos.</p>
+            <button> + info </button>  
+          </div>
           <h6 class="service">Microshading</h6>
         </div>
         <div class="serviceContainer">
           <img src="/public/img/services/perfilado.JPG" class="servicePhoto" alt="...">
-          <p class="serviceDescription italic">Proceso de depilación de las
-            cejas para darles la forma ideal según cada rostro.</p>
+          
+          <div class="serviceDescription">
+            <p class="italic">Proceso de depilación de las
+              cejas para darles la forma ideal según cada rostro.</p>
+            <button> + info </button>  
+          </div>
+          
           <h6 class="service">Diseño y perfilado.</h6>
         </div>
         <div class="serviceContainer">
           <img src="/public/img/services/lipblush2.jpg" class="servicePhoto" alt="...">
-          <p class="serviceDescription italic">Consiste en colorear los labios, con resultados naturales, para
-            lograr un efecto de boca ruborizada.</p>
+          
+          <div class="serviceDescription">
+            <p class="italic">Consiste en colorear los labios, con resultados naturales, para
+              lograr un efecto de boca ruborizada.</p>
+            <button> + info </button>  
+          </div>
+          
           <h6 class="service">Lipblush</h6>
         </div>
         <div class="serviceContainer">
           <img src="/public/img/services/lashline.JPG" class="servicePhoto" alt="...">
-          <p class="serviceDescription italic">Se realiza un delineado sutil en
-            la línea de las pestañas para definir la mirada.</p>
+
+          <div class="serviceDescription">
+            <p class="italic">Se realiza un delineado sutil en
+              la línea de las pestañas para definir la mirada.</p>
+            <button> + info </button>  
+          </div>
+
           <h6 class="service">Lashline</h6>
         </div>
+
         <div class="serviceContainer">
           <img src="/public/img/services/tattoo.jpg" class="servicePhoto" alt="...">
-          <p class="serviceDescription">Servicio de tatuajes artísticos.</p>
+
+          <div class="serviceDescription">
+            <p class="italic">Servicio de tatuajes artísticos.</p>
+            <button> + info </button>  
+          </div>
+
           <h6 class="service">Tattoo</h6>
         </div>
         
@@ -207,14 +235,51 @@
   
     <section class="myWork" id="myWork">
       <h2>Mis trabajos</h2>
-      <p>ig</p>
+      <!-- <div class="embed-responsive embed-responsive-1by1">
+        <iframe class="embed-responsive-item" src='https://widget.elfsig.ht/510514f1-c748-461a-9e22-f6b4473d038e' width='100%' height='1000' frameborder='0'/>
+      </div> -->
 
     </section>
   
     <section class="mySpace" id="mySpace">
       <h2>Mi espacio</h2>
 
-      <img src="/public/img/1.jpg" class="spacePhoto" alt="...">
+      <div id="carouselExampleAutoplaying" class="carousel slide" class="carousel" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="/public/img/space/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/7.jpg" class="d-block w-100" alt="...">
+          </div>
+                    
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <h4>Encontrame en google maps</h4>
 
@@ -259,12 +324,13 @@
       <h2>LLegó tu momento</h2>
       <button>Pedir un turno</button>
       <p>para sentirte</p>
-      <img src="/public/img/regia-fucsia.png" width="200" alt="">
+      <img src="/public/img/regia-fucsia-rosa.png" width="200" alt="">
 
     </section>
   
   </div>
- 
-  <script src="js/menu.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <!-- <script src="js/menu.js"></script> -->
 </body>
 </html>
