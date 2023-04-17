@@ -3,15 +3,65 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: simplify;
+    src: url('/Simplify.ttf');
+}
+
+@font-face {
+    font-family: cutemolly;
+    src: url('/Cute\ Molly.otf');
 }
 
 h2 {
-    font-size: 66px;
+    font-size: 52px;
+    font-family: simplify;
+    text-align: center;
+    padding-top: 8%;
+}
+
+h4 {
+    font-family: simplify;
+    font-size: 24px;
+}
+
+.smallTitle {
+    font-size: 70px;
+}
+
+.bigTitle {
+    font-size: 46px;
 }
 
 .italic {
     font-style: italic;
+}
+
+.cuteMolly {
+    font-family: cutemolly;
+}
+
+.fucsia {
+    color: #FD0072;
+}
+
+.red {
+    color: #FF0B0D;
+}
+
+.pink {
+    color: #F8C9CF;
+}
+
+.yellow {
+    color: #FFF223;
+}
+
+.blue {
+    color: #04A0ED;
 }
 
 .web {

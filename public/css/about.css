@@ -1,8 +1,72 @@
 .aboutPresentation {
     color: #FC5D5D;
-    padding: 7%;
+    padding: 5%;
 }
 
 .maru {
     width: 100vw;
 }
+
+.stronger {
+    font-weight: 900;
+}
+
+.chat1 {
+    position: relative;
+    border-radius: 25px 25px 25px 0;
+    border: 2px solid #04A0ED;
+    margin: 5%;
+}
+
+.chat2 {
+    position: relative;
+    border-radius: 25px 25px 25px 0;
+    border: 2px solid #65D5CD;
+    margin: 5%;
+}
+
+
+.chat1::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 15%;
+    transform: translateX(-50%);
+    border-width: 20px 20px 0 20px;
+    border-style: solid;
+    border-color: #04A0ED transparent transparent transparent;
+
+    /* border-radius: 0 0 0 150px;
+    border-width: 100px 85px 27px 56px;
+    bottom: -127px;
+    border-color: #000 transparent blue white; */
+}
+  
+/* .chat1::after {
+    content: "";
+    position: absolute;
+    bottom: -127px;
+    left: 29%;
+    transform: translateX(-50%);
+    border-width: 100px 85px 27px 56px;
+    border-style: solid;
+    border-color: #000 transparent blue white;
+    border-radius: 0 0 0 150px;
+} */
+  
+/* 
+content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 16%;
+    transform: translateX(-50%);
+    border-width: 20px 20px 0 20px;
+    border-style: solid;
+    border-color: #04A0ED;
+    border-radius: 150px 160px 150px 150px;
+    /* border-radius: 0 0 0 150px;
+    border-width: 100px 55px 26px 63px;
+    bottom: -127px; 
+    */
+    /* border-color: #000 transparent blue white;
+*/

@@ -1,0 +1,17 @@
+.contactButton {
+    padding: 5%;
+    color: yellow;
+    border-radius: 25px;
+    background-color: #FD0072;
+    border: none;
+    margin: 117px 27% 45px;
+    width: 47%;
+    font-size: 20px;
+}
+
+.contactText {
+    font-size: 20px;
+    color: #FD0072;
+    text-align: center;
+    font-weight: bold;
+}
