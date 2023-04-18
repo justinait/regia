@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: simplify;
+    src: url('/Simplify.ttf');
+}
+
+@font-face {
+    font-family: cutemolly;
+    src: url('/Cute\ Molly.otf');
+}
+
+h2 {
+    font-size: 52px;
+    font-family: simplify;
+    text-align: center;
+    padding-top: 8%;
+}
+
+h4 {
+    font-family: simplify;
+    font-size: 26px;
+    text-align: center;
+    /* padding-top: 6%; */
+}
+
+.smallTitle {
+    font-size: 70px;
+}
+
+.bigTitle {
+    font-size: 46px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.cuteMolly {
+    font-family: cutemolly;
+}
+
+.fucsia {
+    color: #FD0072;
+}
+
+.red {
+    color: #FF0B0D;
+}
+
+.pink {
+    color: #F8C9CF;
+}
+
+.yellow {
+    color: #FFF223;
+}
+
+.blue {
+    color: #04A0ED;
+}
+
+.home {
+    height: 90vh;
+    /* background-image: url('../img/regia1.jpg'); */
+}
+
+.services {    
+    height: 90vh;
+}
+
+.about {
+    height: 270vh;
+}
+
+.myWork {
+    height: 90vh;
+}
+
+.mySpace {    
+    height: 180vh;
+}
+.space1, .space2 {
+    height: 90vh;
+}
+
+.spotify {    
+    height: 90vh;
+}
+
+.contact {
+    height: 100vh;
+}

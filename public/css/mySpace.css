@@ -1,6 +1,14 @@
-.spacePhoto {
-    border-radius: 20px;
-    width: 80vw;
+.space1{
+    padding-top: 5%;    
+}
+
+.map {
+    border: 0;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    margin: 8%;
+    width: 84%;
 }
 
 .spotifyIcon {
