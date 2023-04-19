@@ -1,28 +1,17 @@
-.space1{
-    padding-top: 5%;    
-}
-
 .map {
     border: 0;
     border-radius: 25px;
-    text-align: center;
-    margin: auto;
-    margin: 8%;
+    margin: 2% 8%;
     width: 84%;
 }
 
-.spotifyIcon {
-    width: 150px;
-}
-/* 
-.spotifyContainer {
-    width: 45%;
-} */
-
-.playlistContainer {
-    width: 45%;
+h4 {
+    font-family: simplify;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 5%;
 }
 
-.playlistDescription {
+.comments {
     
 }

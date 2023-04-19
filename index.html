@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="public/css/mySpace.css">
   <link rel="stylesheet" href="public/css/contact.css">
   <link rel="stylesheet" href="public/css/styles.css">
+  <link rel="stylesheet" href="public/css/spotify.css">
   
   <!-- tipografias -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,16 +148,16 @@
             trabajo como una artesana. Ese es mi secreto.
             Te invito a descubrirlo.</strong>
         </p>
-        <p class="italic cuteMolly"> <strong>¡Bienvenida otra vez!</strong> </p>
+        <p class="italic"> <strong>¡Bienvenida otra vez!</strong> </p>
 
-        <h4 class="cuteMolly">Maru</h4>
-        <img src="/public/img/regia-fucsia-rosa.png" width="100" alt="">
+        <h3 class="cuteMolly maruCuteMolly">Maru</h3>
+        <img class="regiaAbout" src="/public/img/regia-fucsia-rosa.png" alt="Regia">
             
       </div>
 
       <div class="social">
-        <p class="cuteMolly">seguime en mis redes</p>
-        <!-- flechita -->
+        <p class="cuteMolly seguime">seguime en mis redes</p>
+        <img src="/public/img/flecha.png" class="arrow" alt="">
         <div class="icons">
           <img src="/public/img/fb.png" width="30" alt="">
           <img src="/public/img/ig.png" width="30" alt="">
@@ -243,20 +244,22 @@
   
     <section class="myWork" id="myWork">
       <h2 class="pink">Mis trabajos</h2>
-      <!-- <div class="embed-responsive embed-responsive-1by1">
-        <iframe class="embed-responsive-item" src='https://widget.elfsig.ht/510514f1-c748-461a-9e22-f6b4473d038e' width='100%' height='1000' frameborder='0'/>
-      </div> -->
+<!--       
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-510514f1-c748-461a-9e22-f6b4473d038e"></div> -->
+      <!-- <iframe src='https://widget.elfsig.ht/510514f1-c748-461a-9e22-f6b4473d038e' width='100%' height='1000' frameborder='0'></iframe> -->
+      <!-- <iframe src='https://widgets.sociablekit.com/instagram-feed/iframe/126251' frameborder='0' width='100%' height='1000'></iframe> -->
+
+      <div class='sk-instagram-feed' data-embed-id='135060'></div>
+      <script src='https://widgets.sociablekit.com/instagram-feed/widget.js' async defer></script>
 
     </section>
   
     <section class="mySpace" id="mySpace">
       <div class="space1">
         <h2 class="yellow smallTitle">Mi espacio</h2>
-
-        <div id="carouselExampleAutoplaying" class="carousel slide" class="carousel" data-bs-ride="carousel">
-          
+        <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
-  
             <div class="carousel-item active">
               <img src="/public/img/space/1.jpg" class="d-block w-100" alt="...">
             </div>
@@ -278,19 +281,55 @@
             <div class="carousel-item">
               <img src="/public/img/space/7.jpg" class="d-block w-100" alt="...">
             </div>
-                      
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-  
+        
       </div>
+
+      <!-- <div id="carouselExampleAutoplaying" class="carousel slide" class="carousel" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="/public/img/space/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img/space/7.jpg" class="d-block w-100" alt="...">
+          </div>
+                    
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  -->
       
       <div class="space2">
         <h4 class="yellow">Encontrame en google maps</h4>
@@ -299,7 +338,22 @@
         width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
         <h4 class="yellow">Mira lo que dicen mis clientas</h4>
-  
+        
+        <div class="commentsContainer">
+          <div class="comment1">
+
+            <p>
+              Maru te transmite una energía hermosa desde el
+              primer trato que tenés con ella, trabaja excelente,
+              es super profesional, prolija y entiende perfecto lo
+              que querés, no le confiaría mis cejas a nadie más
+              que a ella, las deja hermosas!
+            </p>    
+          </div>
+        </div>
+        
+        <!-- reviews by trustmary, estan joya pero tienen publicidad ahi -->
+        <!-- <script class="comments" src="https://widget.trustmary.com/n9SJ-z0Kg"></script> -->
       </div>
       
 

@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: simplify;
     src: url('/Simplify.ttf');
@@ -9,18 +8,17 @@
     src: url('/Cute\ Molly.otf');
 }
 
+.web {
+    background-image: url('../img/FondoWeb.jpg');
+    /* width: 90vw;  */
+    background-size: cover;
+}
+
 h2 {
     font-size: 52px;
     font-family: simplify;
     text-align: center;
     padding-top: 8%;
-}
-
-h4 {
-    font-family: simplify;
-    font-size: 26px;
-    text-align: center;
-    /* padding-top: 6%; */
 }
 
 .smallTitle {
@@ -37,26 +35,6 @@ h4 {
 
 .cuteMolly {
     font-family: cutemolly;
-}
-
-.fucsia {
-    color: #FD0072;
-}
-
-.red {
-    color: #FF0B0D;
-}
-
-.pink {
-    color: #F8C9CF;
-}
-
-.yellow {
-    color: #FFF223;
-}
-
-.blue {
-    color: #04A0ED;
 }
 
 .home {
@@ -89,4 +67,20 @@ h4 {
 
 .contact {
     height: 100vh;
+}
+
+.fucsia {
+    color: #FD0072;
+}
+.red {
+    color: #FF0B0D;
+}
+.pink {
+    color: #F8C9CF;
+}
+.yellow {
+    color: #FFF223;
+}
+.blue {
+    color: #04A0ED;
 }

@@ -7,6 +7,37 @@
     width: 100vw;
 }
 
+.maruCuteMolly {
+    font-size: 90px;
+    margin-left: 28%;
+    margin-top: -30px;
+}
+
+.regiaAbout {
+    width: 120px;
+    margin-left: 35%;
+    margin-top: -45px;
+}
+
+.seguime {
+    font-size: 40px;
+    color: #FC5D5D;
+    text-align: center;
+}
+
+.icons {   
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.arrow {
+    margin-left: 70%;
+    margin-top: -28px;
+    width: 50px;
+}
+
 .stronger {
     font-weight: 900;
 }
