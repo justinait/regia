@@ -9,7 +9,7 @@
 }
 
 .web {
-    background-image: url('../img/FondoWeb.jpg');
+    /* background-image: url('../img/FondoWeb.jpg'); */
     /* width: 90vw;  */
     background-size: cover;
 }
@@ -39,34 +39,47 @@ h2 {
 
 .home {
     height: 90vh;
-    /* background-image: url('../img/regia1.jpg'); */
-}
-
-.services {    
-    height: 90vh;
+    background-image: url('../img/backgrounds/fondo1.jpg');
+    background-size: cover;
 }
 
 .about {
     height: 270vh;
+    background-image: url('../img/backgrounds/fondo2.jpg');
+    background-size: cover;
+}
+
+.services {    
+    height: 90vh;
+    background-image: url('../img/backgrounds/fondo3.jpg');
+    background-size: cover;
 }
 
 .myWork {
     height: 90vh;
+    background-image: url('../img/backgrounds/fondo4.jpg');
+    background-size: cover;
 }
 
 .mySpace {    
     height: 180vh;
+    background-image: url('../img/backgrounds/fondo5.jpg');
+    background-size: cover;
 }
-.space1, .space2 {
+/* .space1, .space2 {
     height: 90vh;
-}
+} */
 
 .spotify {    
     height: 90vh;
+    background-image: url('../img/backgrounds/fondo6.jpg');
+    background-size: cover;
 }
 
 .contact {
     height: 100vh;
+    background-image: url('../img/backgrounds/fondo7.jpg');
+    background-size: cover;
 }
 
 .fucsia {

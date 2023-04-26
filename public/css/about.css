@@ -4,7 +4,10 @@
 }
 
 .maru {
-    width: 100vw;
+    width: 100vw;    
+    top: -34px;
+    position: relative;
+    z-index: 1;
 }
 
 .maruCuteMolly {
@@ -30,11 +33,12 @@
     width: 45%;
     justify-content: space-between;
     margin: auto;
+    margin-top: -10px;
 }
 
 .arrow {
     margin-left: 70%;
-    margin-top: -28px;
+    margin-top: -75px;
     width: 50px;
 }
 
@@ -44,60 +48,38 @@
 
 .chat1 {
     position: relative;
-    border-radius: 25px 25px 25px 0;
+    border-radius: 25px 25px 25px 13px;
     border: 2px solid #04A0ED;
     margin: 5%;
+    z-index: 1;
+    height: 44vh; 
+}
+/* 
+.chat1::after {
+    content: url(/public/img/colamaslarga.png);
+    position: relative;
+    z-index: 5;
+    transform: scale(0.2);
+    left: -15.8%;
+    display: block;
+    height: 14.5%;
+    width: 16%;
+
+    /* background-size: 51px 21px;
+    background-repeat: no-repeat; 
+*/
+
+.chatTail {
+    position:absolute;
+    left:50%;
+    margin-left:-8px;
+    top:-16px;
 }
 
 .chat2 {
     position: relative;
-    border-radius: 25px 25px 25px 0;
+    border-radius: 25px;
     border: 2px solid #65D5CD;
     margin: 5%;
+    top: -2%;
 }
-
-
-.chat1::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 15%;
-    transform: translateX(-50%);
-    border-width: 20px 20px 0 20px;
-    border-style: solid;
-    border-color: #04A0ED transparent transparent transparent;
-
-    /* border-radius: 0 0 0 150px;
-    border-width: 100px 85px 27px 56px;
-    bottom: -127px;
-    border-color: #000 transparent blue white; */
-}
-  
-/* .chat1::after {
-    content: "";
-    position: absolute;
-    bottom: -127px;
-    left: 29%;
-    transform: translateX(-50%);
-    border-width: 100px 85px 27px 56px;
-    border-style: solid;
-    border-color: #000 transparent blue white;
-    border-radius: 0 0 0 150px;
-} */
-  
-/* 
-content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 16%;
-    transform: translateX(-50%);
-    border-width: 20px 20px 0 20px;
-    border-style: solid;
-    border-color: #04A0ED;
-    border-radius: 150px 160px 150px 150px;
-    /* border-radius: 0 0 0 150px;
-    border-width: 100px 55px 26px 63px;
-    bottom: -127px; 
-    */
-    /* border-color: #000 transparent blue white;
-*/

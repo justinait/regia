@@ -12,6 +12,25 @@ h4 {
     padding-top: 5%;
 }
 
-.comments {
-    
+.commentsContainer {
+    color: #F8C9CF;
+}
+
+.comment1 {
+    border: #F8C9CF 1px solid;
+    border-radius: 15px;
+    width: 70vw;
+}
+
+/* .instagram-user-root-container{
+    display: flex;
+}
+
+.sk-ig-profile-info {
+    display: flex;
+} */
+
+.instagram {
+    width: 90vw;
+    margin: auto;
 }
