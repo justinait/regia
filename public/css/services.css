@@ -37,7 +37,7 @@
     color: #FFF223;
 }
 
-.servicePhoto:hover {
+/* .servicePhoto:hover {
     display: none;
 }
 
@@ -47,5 +47,4 @@
 
 .servicePhoto:hover ~ .service{
     margin-top: 40%;
-    /* obvio q no, pero voy acomodando */
-}
+} */

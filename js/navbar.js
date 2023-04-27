@@ -14,6 +14,7 @@ function selectMenuItem (e) {
     }
     return cual;
 }
+//e ya agarra el q corresponde pero yo tmb busco el compa del q corresponde x eso el mambo
 
 function mostrarOcultar(e) {
     let cual = 0;
@@ -24,9 +25,9 @@ function mostrarOcultar(e) {
     for(let i=0; i<navItem.length; i++){
 
         navItem[i].style.display ? "block" :
-        navItemActive[i].style.display == "none";
+        navItemActive[i].style.display = "none";
 
-    }
+    }//esto no anda
 
     navItemActive[cual].style.display = "block";
     navItem[cual].style.display = "none";
