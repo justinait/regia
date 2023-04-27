@@ -12,6 +12,11 @@
 
 .navbarItem {
     width: 45px;
+    display: block;
+}
+.navbarItemActive {
+    display: none;
+    width: 50px;
 }
 
 .toBig {
@@ -22,10 +27,6 @@
     width: 60px;
 }
 
-.navbarItemActive {
-    display: none;
-    width: 50px;
-}
 
 /* poner 1 y 2 tmb */
 .navbarItem:focus {
