@@ -1,36 +1,52 @@
 const navItem = document.getElementsByClassName('navbarItem');
 const navItemActive = document.getElementsByClassName('navbarItemActive');
 
-function selectMenuItem (e) {
-    for(let i=0; i<navItem.length; i++){
-        let cual;
+for(let i=0; i<navItem.length; i++){
 
-        if(navItem[i] == e){
-            
-            cual = i;
-            return cual;
+    navItem[i].addEventListener('click', () => {
 
+        for(let i=0; i<navItem.length; i++){//limpia
+            navItem[i].style.display = "block";
+            navItemActive[i].style.display = "none";
         }
-    }
-    return cual;
+
+        navItem[i].style.display = "none";
+        navItemActive[i].style.display = "block";
+    
+    })
 }
-//e ya agarra el q corresponde pero yo tmb busco el compa del q corresponde x eso el mambo
 
-function mostrarOcultar(e) {
-    let cual = 0;
-    cual = selectMenuItem(e);
 
-    console.log(navItem[cual]);
+// function selectMenuItem (e) {
+//     for(let i=0; i<navItem.length; i++){
+//         let cual;
 
-    for(let i=0; i<navItem.length; i++){
+//         if(navItem[i] == e){
+            
+//             cual = i;
+//             return cual;
 
-        navItem[i].style.display ? "block" :
-        navItemActive[i].style.display = "none";
+//         }
+//     }
+//     return cual;
+// }
+// //e ya agarra el q corresponde pero yo tmb busco el compa del q corresponde x eso el mambo
 
-    }//esto no anda
+// function mostrarOcultar(e) {
+//     let cual = 0;
+//     cual = selectMenuItem(e);
 
-    navItemActive[cual].style.display = "block";
-    navItem[cual].style.display = "none";
+//     console.log(navItem[cual]);
+
+//     for(let i=0; i<navItem.length; i++){
+
+//         navItem[i].style.display ? "block" :
+//         navItemActive[i].style.display = "none";
+
+//     }//esto no anda
+
+//     navItemActive[cual].style.display = "block";
+//     navItem[cual].style.display = "none";
     
     
     //     if (navItemActive[cual].style.display == "none") {
@@ -40,4 +56,4 @@ function mostrarOcultar(e) {
     //     navItemActive[cual].style.display = "block";
     //     navItem[cual].style.display = "none";
     // }
-}
+
