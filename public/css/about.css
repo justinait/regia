@@ -5,7 +5,7 @@
 
 .maru {
     width: 100vw;    
-    top: -34px;
+    top: -20px;
     position: relative;
     z-index: 1;
 }
@@ -46,13 +46,17 @@
     font-weight: 900;
 }
 
+.chat1mobile {
+    position: absolute;
+    width: 100vw;
+}
+
 .chat1 {
     position: relative;
-    border-radius: 25px 25px 25px 13px;
-    border: 2px solid #04A0ED;
     margin: 5%;
+    top: 26px;
     z-index: 1;
-    height: 44vh; 
+    height: 44vh;
 }
 /* 
 .chat1::after {
