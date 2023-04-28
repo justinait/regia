@@ -18,7 +18,7 @@
 
 .servicePhoto {
     width: 100%;
-    /* aspect-ratio: 1/1; */
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-bottom: #FFF223 3px solid;
     border-radius: 10px 10px 0 0;
