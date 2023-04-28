@@ -1,15 +1,28 @@
 .spotifyIcon {
-    width: 150px;
+    width: 120px;
+    margin: 10%;
 }
-/* 
-.spotifyContainer {
-    width: 45%;
-} */
 
 .playlistContainer {
     width: 45%;
+    text-align: center;
+}
+
+.playlist {
+    font-weight: 800;
 }
 
 .playlistDescription {
-    
+    color: #FC5D5D;
+    font-weight: 600;
+}
+
+.spotifyContainer {
+    display: flex;    
+    flex-direction: row;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20%;
 }
