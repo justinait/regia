@@ -46,15 +46,15 @@
     font-weight: 900;
 }
 
-.chat1mobile {
+.bubble1mobile {
     position: absolute;
     width: 100vw;
 }
 
-.chat2mobile {
+.bubble2mobile {
     position: relative;
     width: 100vw;
-    top: -60px;
+    top: -760px;
 }
 
 .chat1 {
@@ -70,4 +70,92 @@
     z-index: 1;
     margin: 5%;
     top: -35.7%;
+}
+
+.bubble1desktop {
+    display: none;
+}
+
+.bubble2desktop {
+    display: none;
+}
+
+.maruDesktop {
+    display: none;
+}
+
+@media (min-width: 700px) {
+
+    .desktop1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 85vh;
+    }
+
+    .bubble1mobile {
+        display: none;
+    }
+    .bubble2mobile {
+        display: none;
+    }
+
+    .chat1 {
+        margin: unset;
+        height: unset;
+        top: unset;
+        width: 70vw;
+        padding-left: 0;
+        height: 70vh;
+    }
+    
+    .bubble1desktop {
+        display: block;
+        position: absolute;
+        width: 65%;
+        right: 15px;
+    }
+
+    /* h2[class="desktop1"]  no funca*/ 
+    .desktop1 + h2{
+        width: 26vw;
+        font-size: 45px;
+    }
+
+    .regiaAbout {
+        display: none;
+    }
+
+    .desktop2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 85vh;
+    }
+
+    .chat2 {
+        top: 620px;
+        width: 75%;
+        height: unset;
+        padding-left: 0;
+    }
+    
+    .bubble2desktop {
+        display: block;
+        position: relative;
+        width: 66vw;
+        right: 15px;
+        top: -230px;
+    }
+
+    .maru {
+        display: none;
+    }
+    .maruDesktop {
+        display: block;
+        width: 30vw;
+    }
+
 }

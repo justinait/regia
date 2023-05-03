@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
 @font-face {
     font-family: simplify;
     src: url('/Simplify.ttf');
@@ -10,7 +18,7 @@
 
 .web {
     background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
-    /* width: 90vw;  */
+    /* width: 100vw;  */
     background-size: cover;
 }
 
@@ -38,49 +46,63 @@ h2 {
 }
 
 .home {
-    height: 90vh;
-    /* background-image: url('../img/backgrounds/fondo1.jpg'); */
-    background-size: cover;
+    height: 95vh;
 }
 
 .about {
-    height: 270vh;
-    /* background-image: url('../img/backgrounds/fondo2.jpg'); */
-    background-size: cover;
+    height: 300vh;
 }
 
 .services {    
-    height: 90vh;
-    /* background-image: url('../img/backgrounds/fondo3.jpg'); */
-    background-size: cover;
+    height: 100vh;
 }
 
 .myWork {
-    height: 90vh;
-    /* background-image: url('../img/backgrounds/fondo4.jpg'); */
-    background-size: cover;
+    height: 100vh;
 }
 
 .mySpace {    
-    height: 180vh;
-    /* background-image: url('../img/backgrounds/fondo5.jpg'); */
-    background-size: cover;
+    height: 200vh;
 }
 /* .space1, .space2 {
-    height: 90vh;
+    height: 100vh;
 } */
 
 .spotify {    
-    height: 90vh;
-    /* background-image: url('../img/backgrounds/fondo6.jpg'); */
-    background-size: cover;
+    height: 100vh;
 }
 
 .contact {
     height: 100vh;
-    /* background-image: url('../img/backgrounds/fondo7.jpg'); */
-    background-size: cover;
 }
+/* viejo */
+/* .home {
+    height: 90vh;
+}
+
+.about {
+    height: 270vh;
+}
+
+.services {    
+    height: 90vh;
+}
+
+.myWork {
+    height: 90vh;
+}
+
+.mySpace {    
+    height: 180vh;
+}
+
+.spotify {    
+    height: 90vh;
+}
+
+.contact {
+    height: 100vh;
+} */
 
 .fucsia {
     color: #FD0072;
@@ -96,4 +118,17 @@ h2 {
 }
 .blue {
     color: #04A0ED;
+}
+
+
+@media (min-width: 700px) {
+
+    * {
+        font-size: 20px;
+    }
+
+    .home {
+        height: 85vh;
+    }
+
 }
