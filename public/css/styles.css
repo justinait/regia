@@ -18,7 +18,7 @@
 
 .web {
     background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
-    /* width: 100vw;  */
+    width: 100%; 
     background-size: cover;
 }
 
@@ -30,7 +30,7 @@ h2 {
 }
 
 .smallTitle {
-    font-size: 70px;
+    font-size: 500%;     /* 70px; */
 }
 
 .bigTitle {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .mySpace {    
-    height: 200vh;
+    height: 190vh; /* 200vh */
 }
 /* .space1, .space2 {
     height: 100vh;
@@ -129,6 +129,9 @@ h2 {
 
     .home {
         height: 85vh;
+    }
+    .mySpace {    
+        height: 250vh;
     }
 
 }

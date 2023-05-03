@@ -20,6 +20,15 @@
     .w-100, .carousel {
       object-fit: cover;
       object-position: center center;
-      height: 70vh;
+      height: 70vh;    
+    }
+}
+
+@media (min-width: 700px) {
+    
+    @supports(object-fit: cover){
+        .w-100, .carousel {
+            width: 60vw;
+        }
     }
 }

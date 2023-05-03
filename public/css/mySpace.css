@@ -1,8 +1,9 @@
 .map {
     border: 0;
     border-radius: 25px;
-    margin: 2% 8%;
+    /* margin: 2% 8%; */
     width: 84%;
+
 }
 
 h4 {
@@ -33,4 +34,28 @@ h4 {
 .instagram {
     width: 90vw;
     margin: auto;
+}
+.mapDiv {
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+@media (min-width: 700px) {
+  
+    .carouselSpace,
+    #carouselExample {
+        width: 60vw;
+        margin: auto;
+    }
+
+
+    .map {
+        /* margin: 2% 24%; */
+        width: 55%;
+    }
+
+    .instagram {
+        /* width: 70vw; */
+    }  
 }

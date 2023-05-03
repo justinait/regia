@@ -26,3 +26,18 @@
     margin: auto;
     margin-top: 20%;
 }
+
+
+@media (min-width: 700px) {
+
+    .spotifyContainer {
+        flex-wrap: unset;
+        margin-top: unset;
+        justify-content: space-around;
+    }
+    
+    .playlistContainer {
+        width: 22%;
+    }
+
+}
