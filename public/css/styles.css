@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    font-size: 4vw;
+    font-size: 3.8vw;
 }
 
 @font-face {
@@ -125,13 +125,15 @@ h2 {
     color: #04A0ED;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 425px) {
 
     .web {
         background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
         background-size: cover;
     }
-    
+    .maru {
+        margin-top: 12%;
+    }
 }
 
 

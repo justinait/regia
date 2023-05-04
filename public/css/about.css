@@ -5,9 +5,10 @@
 
 .maru {
     width: 100vw;    
-    top: -20px;
+    /* top: -20px; */
     position: relative;
     z-index: 1;
+    margin-top: 6%;
 }
 
 .maruCuteMolly {
@@ -35,11 +36,11 @@
     margin-top: -75px;
     width: 50px;
 }
-
+/* 
 .social {
     position: relative;
     top: -500px;
-}
+} */
 
 .stronger {
     font-weight: 900;
@@ -48,27 +49,32 @@
 .bubble1mobile {
     position: absolute;
     width: 100vw;
+    /* height: 64vh; */
+    height: fit-content;
+    /* margin-top: -15px; */
 }
 
 .bubble2mobile {
     position: relative;
     width: 100vw;
-    top: -760px;
+    /* top: -760px; */
 }
 
 .chat1 {
     position: relative;
-    margin: 5%;
-    top: 26px;
+    margin: 0 5%;
+    /* top: 26px; */
     z-index: 1;
     height: 44vh;
 }
 
 .chat2 {
-    position: relative;
+    margin: 5%;
+    margin-top: -190%;
+    /* position: relative;
     z-index: 1;
     margin: 5%;
-    top: -35.7%;
+    top: -35.7%; */
 }
 
 .bubble1desktop {
