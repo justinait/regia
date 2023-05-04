@@ -17,7 +17,7 @@
 }
 
 .web {
-    background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
+    background-image: url('../img/backgrounds/FondoWeb.jpg');
     width: 100%; 
     background-size: cover;
 }
@@ -122,6 +122,15 @@ h2 {
 }
 .blue {
     color: #04A0ED;
+}
+
+@media (min-width: 450px) {
+
+    .web {
+        background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
+        background-size: cover;
+    }
+    
 }
 
 
