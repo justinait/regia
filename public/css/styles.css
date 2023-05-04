@@ -19,7 +19,8 @@
 .web {
     background-image: url('../img/backgrounds/FondoWeb.jpg');
     width: 100%; 
-    background-size: cover;
+    background-size: cover; 
+    background-position: right;
 }
 
 h2 {
