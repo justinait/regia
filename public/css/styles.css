@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 4vw;
 }
 
 @font-face {
@@ -23,18 +23,21 @@
 }
 
 h2 {
-    font-size: 52px;
+    font-size: 14vw;
     font-family: simplify;
     text-align: center;
-    padding-top: 8%;
+    /* padding-top: 8%; */
+}
+.space1 > h2 {
+    font-size: 17vw;
 }
 
 .smallTitle {
-    font-size: 500%;     /* 70px; */
+    font-size: 20vw;     /* 70px; */
 }
 
 .bigTitle {
-    font-size: 46px;
+    font-size: 11vw;
 }
 
 .italic {
@@ -46,7 +49,7 @@ h2 {
 }
 
 .home {
-    height: 95vh;
+    height: 100vh;
 }
 
 .about {
@@ -64,9 +67,10 @@ h2 {
 .mySpace {    
     height: 190vh; /* 200vh */
 }
-/* .space1, .space2 {
-    height: 100vh;
-} */
+
+.space1, .space2 {
+    height: 95vh;
+}
 
 .spotify {    
     height: 100vh;

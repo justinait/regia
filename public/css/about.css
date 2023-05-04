@@ -11,19 +11,13 @@
 }
 
 .maruCuteMolly {
-    font-size: 90px;
+    font-size: 23vw;
     margin-left: 28%;
     margin-top: -30px;
 }
 
-.regiaAbout {
-    width: 120px;
-    margin-left: 35%;
-    margin-top: -45px;
-}
-
 .seguime {
-    font-size: 40px;
+    font-size: 11vw;
     color: #FC5D5D;
     text-align: center;
 }
@@ -122,14 +116,9 @@
         right: 15px;
     }
 
-    /* h2[class="desktop1"]  no funca*/ 
-    .desktop1 + h2{
+    .desktop1 > h2{
         width: 26vw;
         font-size: 45px;
-    }
-
-    .regiaAbout {
-        display: none;
     }
 
     .desktop2{
@@ -166,5 +155,10 @@
     .social {
         top: -500px;
     }
+
+}
+
+
+@media (min-width: 700px) {
 
 }

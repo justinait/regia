@@ -1,18 +1,29 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    top: 100px;
+    position: relative;
+    justify-content: center;
+}
+
 .contactButton {
     color: yellow;
     border-radius: 25px;
     background-color: #FD0072;
     border: none;
     /* margin: 117px 27% 45px; */
-    margin: 100px;
-    width: 47%;
-    font-size: 20px;
+    /* margin: 100px; */
+    width: 54vw;
+    font-size: 6vw;
+    height: 8vh;
+    font-weight: 700;
 }
 
 .contactText {
-    font-size: 20px;
+    font-size: 6vw;
     color: #FD0072;
-    text-align: center;
     font-weight: bold;
 }
 
