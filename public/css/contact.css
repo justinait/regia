@@ -26,6 +26,8 @@
     .contactButton {
         width: 22%;
         height: 12%;
+        font-weight: 700;
+        font-size: larger;
     }
     
 }

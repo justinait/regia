@@ -42,6 +42,11 @@
     width: 50px;
 }
 
+.social {
+    position: relative;
+    top: -500px;
+}
+
 .stronger {
     font-weight: 900;
 }
@@ -156,6 +161,10 @@
     .maruDesktop {
         display: block;
         width: 30vw;
+    }
+    
+    .social {
+        top: -500px;
     }
 
 }
