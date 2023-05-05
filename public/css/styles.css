@@ -132,7 +132,7 @@ h2 {
         background-size: cover;
     }
     .maru {
-        margin-top: 12%;
+        margin-top: 22%;
     }
 }
 
@@ -150,4 +150,38 @@ h2 {
         height: 250vh;
     }
 
+}
+/* 375*645 */
+
+@media(min-height:625px) and (max-height:650px) {
+
+    @media(min-width:368px) and (max-width:385px) {
+
+        .web {
+            height: 1030vh;
+        }
+        .home {
+            height: 95vh;
+        }
+        .about {
+            height: 320vh;
+        }
+        
+        .services {    
+            height: 105vh;
+        }
+        
+        .myWork {
+            height: 102vh;
+        }
+        
+        .mySpace {    
+            height: 210vh;
+        }
+        
+        .spotify {    
+            height: 103vh;
+        }
+            
+    }
 }
