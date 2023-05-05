@@ -182,6 +182,10 @@ h2 {
         .spotify {    
             height: 103vh;
         }
-            
+
+        .navbar {
+            height: 13vh;
+            top: 87vh;
+        }    
     }
 }

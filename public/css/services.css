@@ -7,16 +7,21 @@
     margin: auto;
 }
 
-.serviceContainer {
+/* .serviceContainer {
     width: 45%;
     background-color: #FF6FB4;
-    /* padding: 1%; NO*/
     margin: 1%;
     border: #FFF223 2px solid;
     border-radius: 10px;
     text-align: center;
+} */
+.serviceContainer {
+    width: 45%;
+    margin: 1%;
+    margin-bottom: -8%;
+    border-radius: 10px;
+    text-align: center;
 }
-
 .serviceDetail {
     font-weight: 600;
     margin: 15%;
@@ -26,26 +31,47 @@
 
 .servicePhoto {
     width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    border: #FFF223 1.7px solid;
+    /* width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-bottom: #FFF223 3px solid;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0; */
 }
 
 .service {
+    
     color: #FFF223;
+    padding: 3%;
+    /* margin: 2%; */
+    text-align: center;
+    font-size: 4.4vw;
+    position: relative;
+    z-index: 5;
+    background-color: #FF6FB4;
+    top: -13%;
+    border: #FFF223 1.7px solid;
+    border-radius: 0 0 10px 10px;
+
+    /* color: #FFF223;
     padding: 1%;
     margin: 2%;
     text-align: center;
     font-size: 4.4vw;
     position: sticky;
     z-index: 5;
-    top: 90%;
+    top: 90%; */
 }
 
 .serviceDescription {
     display: none;
     color: #FFF223;
+    border: #FFF223 1.7px solid;
+    background-color: #FF6FB4;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
 }
 
 .infoButton {

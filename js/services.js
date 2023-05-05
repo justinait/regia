@@ -1,5 +1,6 @@
 const servicePh = document.getElementsByClassName('servicePhoto');
 const serviceDesc = document.getElementsByClassName('serviceDescription');
+const service = document.getElementsByClassName('service');
 
 for(let i = 0; i < servicePh.length; i++){
 
@@ -15,3 +16,6 @@ for(let i = 0; i < servicePh.length; i++){
 
     })
 }
+
+// border-top: yellow 1.7px solid;
+// border-top: none;
