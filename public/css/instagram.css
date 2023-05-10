@@ -6,13 +6,28 @@
     display: none !important;
 }
 
-.sk-instagram-feed-item{
-    border-radius: 10px;
-    border: 1px pink solid;
-    aspect-ratio: 1/1 !important;
-    width: 29% !important;
+body .sk-instagram-feed .sk-ig-profile-usename {
+    font-size: 3vw !important;
+    color: #F8C9CF !important;
+    font-weight: normal;
+    text-align: unset !important;
+    margin-left: -10px;
 }
 
+.sk-instagram-feed-item{
+    border-radius: 10px;
+    border: 3px #FF6FB4 solid;
+    aspect-ratio: 1/1 !important;
+    width: 31% !important;
+}
+.instagram-user-container {
+    background-color: #FF6FB4 !important;
+    border-color: #FF6FB4 !important;
+    color: white !important;
+}
+i > .fa fa-instagram {
+    display: none !important;
+}
 .sk-ig-profile-counts {
     display: none !important;
 }
@@ -24,7 +39,14 @@
 .sk-ig-profile-bio {
     display: none !important;
 }
-
+.sk-ig-profile-bio-container > strong{
+    font-size: 2vw !important;
+    color: #F8C9CF !important;
+    font-weight: normal;
+}
+.sk-ig-profile-bio-container > b{
+    display: none !important;
+}
 .sk-instagram-feed {
     background-color: transparent !important;
 }
@@ -33,6 +55,10 @@
     display: none !important;
 }
 
+.sk-instagram-profile-pic {
+    width: 70px !important;
+    height: 70px !important;
+}
 
 .instagram-user-root-container {
     display: flex;
@@ -40,4 +66,27 @@
 
 .href_status_trigger_container {
     display: flex;
+}
+
+.sk-ig-post-img {
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 180px !important;
+}
+
+.bio-description {
+    margin-top: -30px !important;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+    
+    body .sk-instagram-feed .sk-ig-profile-usename {
+        font-size: 3vw !important;
+        color: #F8C9CF !important;
+        font-weight: normal;
+        text-align: left !important;
+    }
+
 }
