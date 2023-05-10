@@ -1,0 +1,43 @@
+.sk-ig-bottom-btn-container {
+    display: none !important;
+}
+
+.sk_branding {
+    display: none !important;
+}
+
+.sk-instagram-feed-item{
+    border-radius: 10px;
+    border: 1px pink solid;
+    aspect-ratio: 1/1 !important;
+    width: 29% !important;
+}
+
+.sk-ig-profile-counts {
+    display: none !important;
+}
+
+.sk-ig-profile-count-item {
+    display: none !important;
+}
+
+.sk-ig-profile-bio {
+    display: none !important;
+}
+
+.sk-instagram-feed {
+    background-color: transparent !important;
+}
+
+.tutorial_link {
+    display: none !important;
+}
+
+
+.instagram-user-root-container {
+    display: flex;
+}
+
+.href_status_trigger_container {
+    display: flex;
+}
