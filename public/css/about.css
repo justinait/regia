@@ -30,7 +30,9 @@
     margin: auto;
     margin-top: -10px;
 }
-
+.iconItem {
+    width: 30px;
+}
 .arrow {
     margin-left: 72%;
     margin-top: -80px;
@@ -89,7 +91,7 @@
     display: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
 
     .desktop1{
         display: flex;
@@ -122,24 +124,26 @@
         right: 15px;
     }
 
-    .desktop1 > h2{
+    .desktop1 > h2 {
         width: 26vw;
         font-size: 45px;
     }
 
-    .desktop2{
+    .desktop2 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         height: 85vh;
+
+        width: 99vw;
     }
 
     .chat2 {
-        top: 620px;
-        width: 75%;
+        top: 2630px;
+        position: relative;
+        width: 81%;
         height: unset;
-        padding-left: 0;
     }
     
     .bubble2desktop {
@@ -159,12 +163,53 @@
     }
     
     .social {
-        top: -500px;
+        position: relative;
+        top: 40vh;
+    }
+    .iconItem {
+        width: 85px;
     }
 
-}
+    .icons {
+        width: 60%;
+    }
 
+    .desktop1 > h2 {
+        font-size: 5.6vw;
+    }
+    
+    .chat1 {
+        top: 25px;
+        width: 55vw;
+        height: 70vh;
+    }
 
-@media (min-width: 700px) {
+    .bubble2desktop {
+        width: 60vw;
+        top: 85vh;
+    }
 
+    .arrow {
+        margin-left: 72%;
+        margin-top: -200px;
+        width: 100px;
+    }
+
+    .maruDesktop {
+        display: block;
+        width: 50vw;
+        margin-left: -10vw;
+        top: 17vw;
+        position: relative;
+    }
+    
+    .maruCuteMolly {
+        font-size: 10vw;
+        margin-left: 28%;
+        margin-top: -30px;
+    }
+
+    .seguime {
+        font-size: 4vw;
+    }
 }

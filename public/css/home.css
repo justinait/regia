@@ -1,5 +1,5 @@
 .title {
-    width: 250px;
+    width: 20%;
     margin: -80px auto auto auto;
     display: flex;
 }
@@ -24,11 +24,12 @@
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     
     @supports(object-fit: cover){
         .w-100, .carousel {
             width: 60vw;
+            height: 65vh;
         }
     }
 }

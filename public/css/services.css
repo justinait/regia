@@ -83,7 +83,7 @@
     font-weight: 700;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
 
     .serviceContainer {
         width: 20%;

@@ -1,50 +1,61 @@
 .navbar {
     background-color: #FD0072;
-    height: 10vh;
+    height: 11vh;
     display: flex;
     position: sticky;
     z-index: 11;
-    top: 90vh;
+    top: 89vh;
     padding: 2%;
+    
     box-shadow: 0 0 10px #FD0072;/* esto asi no igual, me dijo fucsia mas oscuro, nose ver bn */
     border-top: pink 2px solid;
 }
 
 .navbarItem {
-    width: 45px;
+    width: 55%;
     display: block;
 }
 
 .navbarItemActive {
     display: none;
-    width: 50px;
+    width: 50%;
 }
 
 .toBig {
-    width: 40px;
+    width: 50%;
 }
 
 .toSmall {
-    width: 60px;
-}
-
-.navbarItem:focus {
-    color: black;
-}
-
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
+    width: 60%;
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
+    a {
+        width: 13%;
+    }
+
+    .navbarItemActive {
+        width: 25%;
+    }
+
     .navbar {
-
         height: 15vh;
         top: 85vh;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
     }
+    .navbarItem {
+        width: 25%;
+    }
+    
+    .toBig {
+        width: 20%;
+    }
+    
+    .toSmall {
+        width: 30%;
+    }
+    
+
 }
