@@ -116,16 +116,19 @@ h2 {
         font-size: 1.8vw;
     }
 
-    h2 {
+    h2, .space1 > h2 {
         font-size: 5vw;
     }
-    
     .home {
         height: 85vh;
         margin-top: -15vh;
     }
-    .mySpace {    
+    /* .mySpace {    
         height: 250vh;
+    } */
+    .mySpace {
+        margin-top: 20vh;
+        height: 210vh;
     }
     .services {
         margin-top: 20vh;
