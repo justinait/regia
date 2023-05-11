@@ -12,21 +12,21 @@
 }
 
 .navbarItem {
-    width: 55%;
+    width: 40px;
     display: block;
 }
 
 .navbarItemActive {
     display: none;
-    width: 50%;
+    width: 40px;
 }
 
 .toBig {
-    width: 50%;
+    width: 35px;
 }
 
 .toSmall {
-    width: 60%;
+    width: 45px;
 }
 
 
