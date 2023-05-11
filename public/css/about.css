@@ -4,11 +4,15 @@
 } */
 
 .maru {
-    width: 100vw;    
-    /* top: -20px; */
+    /* width: 100vw;    
     position: relative;
     z-index: 1;
-    margin-top: 12%;
+    margin-top: 12%; */
+    
+    width: 100vw;
+    top: -100px;
+    position: relative;
+    z-index: 1;
 }
 
 .maruCuteMolly {

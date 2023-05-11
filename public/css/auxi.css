@@ -1,29 +1,53 @@
+.aboutPresentation {
+    color: #FC5D5D;
+    padding: 5%;
+}
+
+.auxi1 {
+    background-image: url(/public/img/chat1-mobile.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 6%;
+    width: 90vw;
+    top: 26px;
+    z-index: 1;
+    height: 67vh;
+}
+
+.auxi2 {
+    background-image: url(/public/img/chat2-mobile.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -125px;
+    width: 100vw;
+    height: 118vh;
+    color: #FC5D5D;
+}
+
+.auxi2 p {    
+    padding: 17% 10% 3px;
+}
+
+.auxi2 .italic {
+    padding: 0 10%;
+}
+
 
 @media (min-width: 1000px) {
 
     .auxi1 {
         background-image: url(/public/img/chat1-desktop.png);
-        background-size: cover;
-        background-position: center;
         margin: 0 6%;
         width: 65vw;
         top: 26px;
         z-index: 1;
         height: 104%;
     }
-    .aboutPresentation {
-        color: #FC5D5D;
-        padding: 5%;
-    }
-
 
     .auxi2 {
         background-image: url(/public/img/chat2-desktop.png);
-        background-size: cover;
-        background-position: center;
         width: 70vw;
         height: 177vh;
-        color: #FC5D5D;
     }
 
     .auxi2 p {
@@ -35,15 +59,4 @@
         padding: 0 7%;
     }
 
-    /* .chat2 {
-        margin: 5%;
-        margin-top: -190%;
-        z-index: 1;
-    }
-    .chat2 {
-        top: 2630px;
-        position: relative;
-        width: 81%;
-        height: unset;
-    }     */
 }
