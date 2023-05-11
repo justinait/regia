@@ -48,6 +48,7 @@
         background-image: url(/public/img/chat2-desktop.png);
         width: 70vw;
         height: 177vh;
+        margin-top: 0;
     }
 
     .auxi2 p {
