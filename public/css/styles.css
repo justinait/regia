@@ -80,34 +80,7 @@ h2 {
 .contact {
     height: 100vh;
 }
-/* viejo */
-/* .home {
-    height: 90vh;
-}
 
-.about {
-    height: 270vh;
-}
-
-.services {    
-    height: 90vh;
-}
-
-.myWork {
-    height: 90vh;
-}
-
-.mySpace {    
-    height: 180vh;
-}
-
-.spotify {    
-    height: 90vh;
-}
-
-.contact {
-    height: 100vh;
-} */
 
 .fucsia {
     color: #FD0072;
@@ -143,12 +116,23 @@ h2 {
         font-size: 1.8vw;
     }
 
+    h2 {
+        font-size: 5vw;
+    }
+    
     .home {
         height: 85vh;
         margin-top: -15vh;
     }
     .mySpace {    
         height: 250vh;
+    }
+    .services {
+        margin-top: 20vh;
+    }
+    .myWork {
+        height: 85vh;
+        margin-top: 20vh;
     }
 
 }
@@ -158,6 +142,11 @@ h2 {
         margin-top: 20vh;
     }
 }
+
+
+
+
+
 
 /* 375*645 */
 

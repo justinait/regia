@@ -174,10 +174,10 @@
     
     .social {
         position: relative;
-        top: 40vh;
+        top: 15vh;
     }
     .iconItem {
-        width: 85px;
+        width: 50px;
     }
 
     .icons {
@@ -209,8 +209,8 @@
     
     .maruCuteMolly {
         font-size: 10vw;
-        margin-left: 28%;
-        margin-top: -30px;
+        text-align: right;
+        margin-right: 20%;
     }
 
     .seguime {
