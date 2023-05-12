@@ -3,21 +3,19 @@
     flex-direction: column;
     align-items: center;
     height: 45vh;
-    top: 100px;
+    top: 45px;
     position: relative;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .contactButton {
     color: yellow;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #FD0072;
     border: none;
-    /* margin: 117px 27% 45px; */
-    /* margin: 100px; */
     width: 54vw;
     font-size: 6vw;
-    height: 8vh;
+    height: 10vh;
     font-weight: 700;
 }
 
@@ -25,6 +23,8 @@
     font-size: 6vw;
     color: #FD0072;
     font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 @media (min-width: 1000px) {

@@ -32,6 +32,10 @@ h2 {
 .space1 > h2 {
     font-size: 17vw;
 }
+.spotify > h2 {
+    font-size: 10vw;
+    padding: 3%;
+}
 
 .smallTitle {
     font-size: 20vw;     /* 70px; */
@@ -39,6 +43,7 @@ h2 {
 
 .bigTitle {
     font-size: 11vw;
+    padding-top: 10vh;
 }
 
 .italic {
@@ -66,7 +71,7 @@ h2 {
 }
 
 .mySpace {    
-    height: 190vh; /* 200vh */
+    height: 200vh;
 }
 /* 
 .space1, .space2 {
