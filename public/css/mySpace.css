@@ -27,8 +27,12 @@ h4 {
     text-align: center;
     margin-top: 3%;
 }
-
-
+.go2048136271 {
+    display: none !important;
+}
+.go3136508558{
+    /* aca editar el vh y eso */
+}
 @media (min-width: 1000px) {
   
     .carouselSpace,
