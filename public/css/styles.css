@@ -108,7 +108,12 @@ h2 {
         margin-top: 22%;
     }
 }
-
+/* ni idea q onda
+@media (min-width: 1000px)
+{.mySpace {
+    margin-top: 40vh;
+    height: 200vh;
+}} */
 
 @media (min-width: 1000px) {
 

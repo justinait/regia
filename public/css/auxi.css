@@ -11,7 +11,7 @@
     width: 90vw;
     top: 26px;
     z-index: 1;
-    height: 67vh;
+    height: 65vh;
 }
 
 .auxi2 {
@@ -32,6 +32,32 @@
     padding: 0 10%;
 }
 
+@media (min-height: 710px) {
+    .auxi1 {
+        height: 62vh;
+    }
+    .auxi2 {
+        height: 102vh;
+    }
+}
+@media (min-height: 740px) {
+    .auxi1 {
+        height: 58vh;
+    }
+    .auxi2 {
+        height: 98vh;
+    }
+}
+@media (min-height: 800px) {
+    .auxi1 {
+        height: 55vh;
+    }
+}
+@media (min-height: 840px) {
+    .auxi1 {
+        height: 53vh;
+    }
+}
 
 @media (min-width: 1000px) {
 
