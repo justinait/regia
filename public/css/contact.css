@@ -35,10 +35,10 @@
         display: none;
     }
     .contactButton {
-        width: 22%;
-        height: 12%;
+        width: 22vw;
+        height: 14vh;
         font-weight: 700;
-        font-size: larger;
+        font-size: x-large;
     }
     
 }

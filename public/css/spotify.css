@@ -39,5 +39,8 @@
     .playlistContainer {
         width: 22%;
     }
-
+    .spotify > h2 {
+        font-size: 5vw;
+        padding-top: 18%;
+    }
 }

@@ -106,7 +106,7 @@ h2 {
 @media (min-width: 425px) {
 
     .web {
-        background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
+        background-image: url('../img/backgrounds/Fondo-desktop.jpg');
         background-size: cover;
     }
     .maru {
@@ -126,7 +126,7 @@ h2 {
         font-size: 1.8vw;
     }
 
-    h2, .space1 > h2 {
+    h2, .space1 > h2, .bigTitle {
         font-size: 5vw;
     }
     .home {
