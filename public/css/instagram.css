@@ -89,6 +89,10 @@ i > .fa fa-instagram {
     justify-content: space-evenly;
 }
 
+.sk-play-btn {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     
     body .sk-instagram-feed .sk-ig-profile-usename {
