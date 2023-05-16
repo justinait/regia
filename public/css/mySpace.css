@@ -13,16 +13,6 @@ h4 {
     padding-top: 5%;
 }
 
-.commentsContainer {
-    color: #F8C9CF;
-}
-
-.comment1 {
-    border: #F8C9CF 1px solid;
-    border-radius: 15px;
-    width: 70vw;
-}
-
 .mapDiv {
     text-align: center;
     margin-top: 3%;
@@ -30,20 +20,17 @@ h4 {
 .go2048136271 {
     display: none !important;
 }
-.go3136508558{
-    /* aca editar el vh y eso */
-}
+
 @media (min-width: 1000px) {
   
-    .carouselSpace,
-    #carouselExample {
+    .carouselSpace {
         width: 50vw;
         margin: auto;
     }
 
     @supports (object-fit: cover){
-        .w-100, .carousel {
-            width: 60vw;
+        .carouselSpace {
+            width: 50vw;
             height: 65vh;
         }
     }
