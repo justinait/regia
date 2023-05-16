@@ -5,7 +5,7 @@ for(let i=0; i<navItem.length; i++){
 
     navItem[i].addEventListener('click', () => {
 
-        for(let i=0; i<navItem.length; i++){//limpia
+        for(let i=0; i<navItem.length; i++){
             navItem[i].style.display = "block";
             navItemActive[i].style.display = "none";
         }

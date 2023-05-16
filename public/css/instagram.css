@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.responsiveIg {
+    display: block;
+}
+
 .sk-ig-bottom-btn-container {
     display: none !important;
 }
@@ -122,6 +126,9 @@ i > .fa fa-instagram {
         width: 23% !important;
     }
     
+    .responsiveIg {
+        display: none;
+    }
     
     .instagram-user-root-container {
         display: flex;
