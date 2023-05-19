@@ -58,7 +58,7 @@ h2 {
 }
 
 .smallTitle {
-    font-size: 20vw;     /* 70px; */
+    font-size: 20vw;
 }
 
 .bigTitle {
@@ -93,10 +93,6 @@ h2 {
 .mySpace {    
     height: 200vh;
 }
-/* 
-.space1, .space2 {
-    height: 95vh;
-} */
 
 .spotify {    
     height: 100vh;

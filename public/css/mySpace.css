@@ -1,7 +1,6 @@
 .map {
     border: 0;
     border-radius: 25px;
-    /* margin: 2% 8%; */
     width: 84%;
     text-align: center;
 }
@@ -47,7 +46,6 @@ h4 {
     }
 
     .map {
-        /* margin: 2% 24%; */
         width: 42%;
         height: 45vh;
     }

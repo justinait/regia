@@ -7,14 +7,6 @@
     margin: auto;
 }
 
-/* .serviceContainer {
-    width: 45%;
-    background-color: #FF6FB4;
-    margin: 1%;
-    border: #FFF223 2px solid;
-    border-radius: 10px;
-    text-align: center;
-} */
 .serviceContainer {
     width: 45%;
     margin: 1%;
@@ -26,7 +18,6 @@
     font-weight: 600;
     margin: 15%;
     font-size: 2.5vw;
-    /* font-size: 10px; */
 }
 
 .servicePhoto {
@@ -44,7 +35,6 @@
 
     color: #FFF223;
     padding: 3%;
-    /* margin: 2%; */
     text-align: center;
     font-size: 4.4vw;
     position: relative;
@@ -54,14 +44,6 @@
     border: #FFF223 1.7px solid;
     border-radius: 0 0 10px 10px;
 
-    /* color: #FFF223;
-    padding: 1%;
-    margin: 2%;
-    text-align: center;
-    font-size: 4.4vw;
-    position: sticky;
-    z-index: 5;
-    top: 90%; */
 }
 
 .serviceDescription {
