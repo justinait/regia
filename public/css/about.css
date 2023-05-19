@@ -64,23 +64,6 @@
     width: 100vw;
     /* top: -760px; */
 }
-/* 
-.chat1 {
-    position: relative;
-    margin: 0 5%;
-    top: 26px;
-    z-index: 1;
-    height: 44vh;
-} */
-
-.chat2 {
-    /* margin: 5%;
-    margin-top: -190%; */
-    /* position: relative;
-    z-index: 1;
-    margin: 5%;
-    top: -35.7%; */
-}
 
 .bubble1desktop {
     display: none;
@@ -110,22 +93,7 @@
     .bubble2mobile {
         display: none;
     }
-/* 
-    .chat1 {
-        margin: unset;
-        height: unset;
-        top: unset;
-        width: 70vw;
-        padding-left: 0;
-        height: 70vh;
-    }
-     */
-/*     
-    .chat1 {
-        top: 25px;
-        width: 55vw;
-        height: 70vh;
-    } */
+
     .bubble1desktop {
         display: block;
         position: absolute;
@@ -140,20 +108,7 @@
 
     .desktop2 {
         display: flex;
-        /* flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: 85vh;
-
-        width: 99vw; */
     }
-/* 
-    .chat2 {
-        top: 2630px;
-        position: relative;
-        width: 81%;
-        height: unset;
-    } */
     
     .bubble2desktop {
         display: block;

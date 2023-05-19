@@ -70,6 +70,7 @@
     }
 
 }
+
 @media (min-height: 740px) {
     .auxi1 {
         height: 58vh;
@@ -114,6 +115,46 @@
 
     .auxi2 .italic {
         padding: 0 7%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .background-image {
+        background-image: url('../img/backgrounds/Fondo-desktop.jpg');
+        height: 1182vh;
+    }
+    .web {
+        height: 1182vh;
+    }
+    * {
+        font-size: 1.8vw;
+    }
+
+    h2, .space1 > h2, .bigTitle {
+        font-size: 5vw;
+    }
+    .home {
+        height: 100vh;
+    }
+    .about {
+        height: 360vh;
+    }
+    .services {
+        height: 120vh;
+    }
+    .myWork {
+        height: 120vh;
+    }
+    .mySpace {
+        height: 240vh;
+    }
+    .spotify {
+        height: 120vh;
+    }
+
+    .navbar {
+        top: 85vh;
     }
 
 }
