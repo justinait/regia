@@ -1,9 +1,36 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
     font-size: 3.8vw;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.sections {
+    flex: 1;
+}
+
+.web {
+    width: 100%;
+    height: 1005vh;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1005vh;
+    background-image: url('../img/backgrounds/FondoWeb.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 @font-face {
@@ -16,18 +43,11 @@
     src: url('/Cute\ Molly.otf');
 }
 
-.web {
-    background-image: url('../img/backgrounds/FondoWeb.jpg');
-    width: 100%; 
-    background-size: cover; 
-    background-position: right;
-}
 
 h2 {
     font-size: 14vw;
     font-family: simplify;
     text-align: center;
-    /* padding-top: 8%; */
 }
 .space1 > h2 {
     font-size: 17vw;
@@ -105,23 +125,19 @@ h2 {
 
 @media (min-width: 425px) {
 
-    .web {
-        background-image: url('../img/backgrounds/Fondo-desktop.jpg');
-        background-size: cover;
-    }
     .maru {
         margin-top: 22%;
     }
 }
-/* ni idea q onda
-@media (min-width: 1000px)
-{.mySpace {
-    margin-top: 40vh;
-    height: 200vh;
-}} */
 
 @media (min-width: 1000px) {
-
+    .background-image {
+        background-image: url('../img/backgrounds/Fondo-desktop.jpg');
+        height: 1182vh;
+    }
+    .web {
+        height: 1182vh;
+    }
     * {
         font-size: 1.8vw;
     }
@@ -129,24 +145,22 @@ h2 {
     h2, .space1 > h2, .bigTitle {
         font-size: 5vw;
     }
-    .home {
-        height: 85vh;
-        margin-top: -15vh;
-    }
-    /* .mySpace {    
-        height: 250vh;
-    } */
-    .mySpace {
-        margin-top: 20vh;
-        height: 210vh;
+    .about {
+        height: 360vh;
     }
     .services {
-        margin-top: 20vh;
+        height: 120vh;
     }
     .myWork {
-        height: 85vh;
-        margin-top: 20vh;
+        height: 120vh;
     }
+    .mySpace {
+        height: 240vh;
+    }
+    .spotify {
+        height: 120vh;
+    }
+
 
 }
 
@@ -155,10 +169,6 @@ h2 {
         margin-top: 20vh;
     }
 }
-
-
-
-
 
 
 /* 375*645 */

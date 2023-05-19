@@ -39,6 +39,36 @@
     .auxi2 {
         height: 102vh;
     }
+
+
+    .web, .background-image {
+        height: 905vh;
+    }
+    .home {
+        height: 90vh;
+    }
+    .about {
+        height: 275vh;
+    }
+    .services {
+        height: 90vh;
+    }
+    .myWork {
+        height: 90vh;
+    }
+    .mySpace {
+        height: 180vh;
+    }
+    .spotify {
+        height: 90vh;
+    }
+    .contact {
+        height: 90vh;
+    }
+    .navbar {
+        top: 91vh;
+    }
+
 }
 @media (min-height: 740px) {
     .auxi1 {

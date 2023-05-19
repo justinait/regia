@@ -34,15 +34,14 @@
     border-radius: 10px;
     aspect-ratio: 1/1;
     border: #FFF223 1.7px solid;
-    /* width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-bottom: #FFF223 3px solid;
-    border-radius: 10px 10px 0 0; */
+
+    box-shadow: #00000062 1px 1px 10px 0px;
 }
 
 .service {
     
+    box-shadow: 0px 6px 10px -3px #00000082;
+
     color: #FFF223;
     padding: 3%;
     /* margin: 2%; */
@@ -72,6 +71,8 @@
     background-color: #FF6FB4;
     aspect-ratio: 1/1;
     border-radius: 10px;
+
+    box-shadow: #00000082 1px 1px 10px 0px;
 }
 
 .infoButton {
