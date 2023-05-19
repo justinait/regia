@@ -10,7 +10,7 @@
 
 .contactButton {
     color: yellow;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #FD0072;
     border: none;
     width: 54vw;
@@ -38,7 +38,17 @@
         width: 22vw;
         height: 14vh;
         font-weight: 700;
-        font-size: x-large;
+        font-size: xx-large;
     }
-    
+    .contactContainer {
+        align-items: flex-start;
+        padding-left: 15vw;
+    }
+    .bigTitle {
+        text-align: left;
+        padding-left: 15vw;
+    }
+    a > .contactButton {
+        width: 20vw;
+    }
 }
