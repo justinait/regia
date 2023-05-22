@@ -27,10 +27,17 @@ body {
     left: 0;
     width: 100%;
     height: 1049vh;
-    background-image: url('../img/backgrounds/FondoWeb.jpg');
+    background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1;
+}
+
+@supports(background-image: url('../img/backgrounds/FondoWeb.jpg')){
+        
+    .background-image {
+        background-image: url('../img/backgrounds/FondoWeb.jpg');
+    }
 }
 
 @font-face {
