@@ -187,9 +187,9 @@ h2 {
 
     @media(min-width:368px) and (max-width:385px) {
 
-        .web, .background-image {
-            /* height: 1030vh; */
-        }
+        /* .web, .background-image {
+            height: 1030vh;
+        } */
         .home {
             height: 95vh;
         }
