@@ -16,16 +16,19 @@ body {
     flex: 1;
 }
 
+.web, .background-image {
+    height: 1100vh;
+}
 .web {
     width: 100%;
-    height: 1055vh;
+    /* height: 1055vh; */
 }
 .background-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 1049vh;
+    /* height: 1049vh; */
     background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
     background-size: cover;
     background-position: center;
@@ -43,25 +46,6 @@ body {
       /* Imagen de respaldo en caso de que la imagen principal y la de respaldo no se carguen */
     }
   }
-/*   
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 1049vh;
-    background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-}
-
-@supports(background-image: url("../img/backgrounds/FondoWeb.jpg")){
-        
-    .background-image {
-        background-image: url('../img/backgrounds/FondoWeb.jpg');
-    }
-} */
 
 @font-face {
     font-family: simplify;
@@ -105,23 +89,23 @@ h2 {
 }
 
 .home {
-    height: 105vh;
+    height: 110vh;
 }
 
 .about {
-    height: 315vh;
+    height: 335vh;
 }
 
 .services {    
-    height: 105vh;
+    height: 110vh;
 }
 
 .myWork {
-    height: 105vh;
+    height: 110vh;
 }
 
 .mySpace {    
-    height: 210vh;
+    height: 220vh;
 }
 
 .spotify {    
@@ -129,7 +113,7 @@ h2 {
 }
 
 .contact {
-    height: 105vh;
+    height: 110vh;
 }
 
 
@@ -204,7 +188,7 @@ h2 {
     @media(min-width:368px) and (max-width:385px) {
 
         .web, .background-image {
-            height: 1030vh;
+            /* height: 1030vh; */
         }
         .home {
             height: 95vh;
