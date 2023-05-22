@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mgfolmer/regia
+    - export DEPLOYPATH=/home/mgfolmer/public_html/regia
     - /bin/cp -R * $DEPLOYPATH
