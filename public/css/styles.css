@@ -20,7 +20,30 @@ body {
     width: 100%;
     height: 1055vh;
 }
-
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1049vh;
+    background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .background-image {
+    background-image: url('../img/backgrounds/FondoWeb.jpg');
+    /* Fallback en caso de que la imagen principal no se cargue */
+  }
+  
+  @supports not (background-image: url('../img/backgrounds/FondoWeb.jpg')) {
+    .background-image {
+      background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
+      /* Imagen de respaldo en caso de que la imagen principal y la de respaldo no se carguen */
+    }
+  }
+/*   
 .background-image {
     position: absolute;
     top: 0;
@@ -33,12 +56,12 @@ body {
     z-index: -1;
 }
 
-@supports(background-image: url('../img/backgrounds/FondoWeb.jpg')){
+@supports(background-image: url("../img/backgrounds/FondoWeb.jpg")){
         
     .background-image {
         background-image: url('../img/backgrounds/FondoWeb.jpg');
     }
-}
+} */
 
 @font-face {
     font-family: simplify;

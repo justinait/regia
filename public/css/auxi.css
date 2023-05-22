@@ -40,15 +40,16 @@
         height: 102vh;
     }
 
+    
+    
+    .web, .background-image {
+        height: 906vh;
+    }
     @supports(height: 905vh){
         
         .web, .background-image {
             height: 905vh;
         }
-    }
-    
-    .web, .background-image {
-        height: 906vh;
     }
     .home {
         height: 90vh;
