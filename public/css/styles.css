@@ -33,11 +33,11 @@ body {
   }
   
   .background-image {
-    background-image: url('../img/backgrounds/FondoWeb.jpg');
+    background-image: url('../img/backgrounds/FondoWeb.png');
     /* Fallback en caso de que la imagen principal no se cargue */
   }
   
-  @supports not (background-image: url('../img/backgrounds/FondoWeb.jpg')) {
+  @supports not (background-image: url('../img/backgrounds/FondoWeb.png')) {
     .background-image {
       background-image: url('../img/backgrounds/Fondo-desktop-liso.jpg');
       /* Imagen de respaldo en caso de que la imagen principal y la de respaldo no se carguen */
@@ -203,7 +203,7 @@ h2 {
 
     @media(min-width:368px) and (max-width:385px) {
 
-        .web {
+        .web, .background-image {
             height: 1030vh;
         }
         .home {

@@ -43,34 +43,29 @@
     
     
     .web, .background-image {
-        height: 906vh;
+        height: 1000vh;
     }
-    @supports(height: 905vh){
-        
-        .web, .background-image {
-            height: 905vh;
-        }
-    }
+    
     .home {
-        height: 90vh;
+        height: 100vh;
     }
     .about {
-        height: 275vh;
+        height: 305vh;
     }
     .services {
-        height: 90vh;
+        height: 100vh;
     }
     .myWork {
-        height: 90vh;
+        height: 100vh;
     }
     .mySpace {
-        height: 180vh;
+        height: 200vh;
     }
     .spotify {
-        height: 90vh;
+        height: 100vh;
     }
     .contact {
-        height: 90vh;
+        height: 95vh;
     }
     .navbar {
         top: 91vh;
