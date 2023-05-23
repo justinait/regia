@@ -1,8 +1,10 @@
 .map {
-    border: 0;
-    border-radius: 25px;
-    width: 84%;
-    text-align: center;
+    border: 0 !important;
+    border-radius: 25px !important;
+    width: 84% !important;
+    text-align: center !important;
+    margin: auto;
+    height: 400px !important;
 }
 
 h4 {
@@ -48,8 +50,8 @@ h4 {
     }
 
     .map {
-        width: 42%;
-        height: 45vh;
+        width: 42% !important;
+        height: 45vh !important;
     }
 
     h4 {
