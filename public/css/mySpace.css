@@ -1,4 +1,4 @@
-.map {
+.mapSettings {
     border: 0 !important;
     border-radius: 25px !important;
     width: 84% !important;
@@ -49,7 +49,7 @@ h4 {
         }
     }
 
-    .map {
+    .mapSettings {
         width: 42% !important;
         height: 45vh !important;
     }

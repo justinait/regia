@@ -40,7 +40,7 @@
     }
     @supports(object-fit: cover){
         .w-100, .carousel, .carouselSpace {
-            
+            object-fit: scale-down;
             height: 65vh;
             margin: auto;
         }
