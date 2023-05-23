@@ -1,9 +1,9 @@
-.mapSettings {
+.mapSettings, #eapps-google-maps-1 {
     border: 0 !important;
     border-radius: 25px !important;
     width: 84% !important;
     text-align: center !important;
-    margin: auto;
+    margin: auto !important;
     height: 400px !important;
 }
 
@@ -49,7 +49,7 @@ h4 {
         }
     }
 
-    .mapSettings {
+    .mapSettings, #eapps-google-maps-1 {
         width: 42% !important;
         height: 45vh !important;
     }
