@@ -1,11 +1,12 @@
-.mapSettings, #eapps-google-maps-1 {
+/* .mapSettings, #eapps-google-maps-1, */
+/* .elfsight-app-c2d73101-d511-4947-b2fe-71686cb0fe52 {
     border: 0 !important;
     border-radius: 25px !important;
     width: 84% !important;
     text-align: center !important;
     margin: auto !important;
     height: 400px !important;
-}
+} */
 
 h4 {
     font-family: simplify;
@@ -49,10 +50,11 @@ h4 {
         }
     }
 
-    .mapSettings, #eapps-google-maps-1 {
+    /* .mapSettings, #eapps-google-maps-1, */
+    /* .elfsight-app-c2d73101-d511-4947-b2fe-71686cb0fe52 {
         width: 42% !important;
         height: 45vh !important;
-    }
+    } */
 
     h4 {
         font-size: 2.5vw;
