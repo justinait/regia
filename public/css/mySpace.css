@@ -34,6 +34,8 @@ h4 {
     .carouselSpaceDesktop {
         display: block;
         width: 60vw;
+        object-fit: cover;
+        object-position: center center;
     }
     .carouselSpace {
         display: none;

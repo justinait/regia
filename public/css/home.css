@@ -20,7 +20,7 @@
 }
 
 @supports(object-fit: cover){
-    .w-100, .carousel, .carouselDesktop, .carouselSpace{
+    .w-100, .carousel, .carouselDesktop, .carouselSpace, .carouselSpaceDesktop{
       object-fit: cover;
       object-position: center center;
       height: 70vh;    
