@@ -33,7 +33,7 @@
 
 <body class="web">
   <div class="background-image"></div>
-
+    
   <nav class="navbar">
     <a href="#home">
       <img src="./public/img/navbar/Menu-18.png" class="navbarItem toBig one" style="display:none" onclick="mostrarOcultar(this)" alt="">
@@ -74,11 +74,11 @@
       <img src="/public/img/titulo.png" alt="REGIA" class='title' >
 
       <div id="carouselExampleIndicatorsHome" class="carousel slide carouselHome">
-        <!-- <div class="carousel-indicators">
+        <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicatorsHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicatorsHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicatorsHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div> -->
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/public/img/home/carrusel inicio-25.png" class="d-block w-100" alt="...">
@@ -398,24 +398,33 @@
 
         <h4 class="yellow">Encontrame en google maps</h4>
         
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-
-        <div class="elfsight-app-c2d73101-d511-4947-b2fe-71686cb0fe52"  width="84%" height="400">
-          <iframe src='https://sandbox.elfsightcdn.com/c2d73101-d511-4947-b2fe-71686cb0fe52' frameborder='0'></iframe>
+        <div class="mapDiv" id="map" style="width: 100%; height: 400px;">
+          <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKsO4Fy9SMMzBEbuWL_kTwQmMP9w33ZWM&callback=initMap&map_ids=d7a47ecd9f959cbd" async></script> -->
         </div>
+          
+        <script>
+          function initMap() {
+            const mapDiv = document.getElementById("map");
+            map = new google.maps.Map(mapDiv, {
+              center: { lat: -34.62851010777248, lng: -58.40936119007101 },
+              zoom: 15,
+              mapId: "d7a47ecd9f959cbd"
+            });
         
-
+            const marker = new google.maps.Marker({
+              map: map,
+              position: { lat: -34.62851010777248, lng: -58.40936119007101 },
+              title: "Regia Permanent Makeup",
+            });
+          }
+        </script>
+        
+          
         <h4 class="yellow">Mira lo que dicen mis clientas</h4>
         <script class="comments" src="https://widget.trustmary.com/n9SJ-z0Kg"></script>
 
       </div>
-      <!-- <div class="embed-responsive embed-responsive-16by9" style="text-align: center;" class="mapDiv">
-          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0298204075502!2d-58.409329!3d-34.628686699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5e2b423d42d%3A0x1ea2418b8758ed35!2sRegia%20Permanent%20Makeup!5e0!3m2!1ses-419!2sar!4v1681825264017!5m2!1ses-419!2sar" 
-          width="300" height="400" margin="0"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div> -->
-        
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKsO4Fy9SMMzBEbuWL_kTwQmMP9w33ZWM&callback=initMap" async defer></script>
-        
+       
 
 
     </section>
@@ -475,7 +484,10 @@
   <script src="js/navbar.js"></script>
   <script src="js/services.js"></script>
   <script src="js/instagram.js"></script>
-  <script src="js/redirect.js"></script>
+  <!-- <script src="js/redirect.js"></script> -->
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKsO4Fy9SMMzBEbuWL_kTwQmMP9w33ZWM&callback=initMap&map_ids=d7a47ecd9f959cbd" defer></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyAKsO4Fy9SMMzBEbuWL_kTwQmMP9w33ZWM&center=-34.6286263609668,-58.40935465&zoom=17&format=png&maptype=roadmap&style=color:0xfba4e3%7Cvisibility:simplified%7Cweight:1.5&style=element:geometry%7Cweight:1&style=element:labels%7Ccolor:0x454545%7Cweight:2.5&style=element:labels.text.stroke%7Ccolor:0x281f1f&style=feature:administrative%7Ccolor:0xff4d4d&style=feature:administrative.country%7Celement:geometry.stroke%7Ccolor:0x4a4a4a&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0x64779e&style=feature:administrative.province%7Celement:geometry.stroke%7Ccolor:0x4b6878&style=feature:landscape%7Celement:geometry%7Ccolor:0xfba4e3%7Cweight:2&style=feature:landscape.man_made%7Celement:geometry.stroke%7Ccolor:0xfba4e3&style=feature:landscape.natural%7Celement:geometry%7Ccolor:0xfba4e3&style=feature:poi%7Celement:geometry%7Ccolor:0xfba4e3&style=feature:poi%7Celement:labels%7Ccolor:0x303030&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x6f9ba5&style=feature:poi%7Celement:labels.text.stroke%7Ccolor:0x1d2c4d&style=feature:poi.park%7Celement:geometry%7Ccolor:0xfba4e3&style=feature:poi.park%7Celement:geometry.fill%7Ccolor:0xfba4e3&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x4d4d4d&style=feature:road%7Csaturation:-5%7Cweight:1.5&style=feature:road%7Celement:geometry%7Ccolor:0xf9e2f0&style=feature:road%7Celement:labels.text.fill%7Ccolor:0x525252&style=feature:road%7Celement:labels.text.stroke%7Ccolor:0x474748&style=feature:road.highway%7Celement:geometry%7Ccolor:0xf9e2f0&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0xf0e2f0&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0x4f4f4f&style=feature:road.highway%7Celement:labels.text.stroke%7Ccolor:0x454545&style=feature:transit%7Ccolor:0x37ff00&style=feature:transit%7Celement:labels.text.fill%7Ccolor:0x454545&style=feature:transit%7Celement:labels.text.stroke%7Ccolor:0x4a4a4a&style=feature:transit.line%7Ccolor:0x37ff00%7Cweight:1.5&style=feature:transit.line%7Celement:geometry.fill%7Ccolor:0xf0e2f0&style=feature:transit.station%7Celement:geometry%7Ccolor:0xf0e2f0&style=feature:water%7Celement:geometry%7Ccolor:0xf0e2f0&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x2e2e2e&size=480x360"></script> -->
 
 </body>
 </html>

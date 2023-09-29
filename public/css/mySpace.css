@@ -20,8 +20,9 @@ h4 {
 }
 
 .mapDiv {
-    text-align: center;
-    margin-top: 3%;
+    width: 80% !important;
+    margin: auto;
+    border-radius: 25px;
 }
 .go2048136271 {
     display: none !important;
@@ -44,7 +45,9 @@ h4 {
         width: 50vw;
         margin: auto;
     }
-
+    .mapDiv {
+        width: 60% !important;
+    }
     @supports (object-fit: cover){
         .carouselSpace {
             width: 50vw;
