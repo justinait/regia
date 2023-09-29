@@ -132,6 +132,19 @@ h2 {
 .blue {
     color: #04A0ED;
 }
+.carousel-indicators {
+    margin-left: unset;
+    margin-right: unset;
+}
+.carousel-indicators [data-bs-target] {
+    
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #ff72a2;
+    margin-right: 15px;
+    margin-left: 10px;
+}
 
 @media (min-width: 425px) {
 
