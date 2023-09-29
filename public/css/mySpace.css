@@ -46,7 +46,7 @@ h4 {
         margin: auto;
     }
     .mapDiv {
-        width: 60% !important;
+        width: 50% !important;
     }
     @supports (object-fit: cover){
         .carouselSpace {
