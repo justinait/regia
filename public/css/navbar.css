@@ -36,25 +36,25 @@
     }
 
     .navbarItemActive {
-        width: 25%;
+        width: 18%;
     }
 
     .navbar {
-        height: 15vh;
-        top: 85vh;
+        height: 10vh;
+        top: 90vh;
         flex-wrap: nowrap;
         justify-content: flex-end;
     }
     .navbarItem {
-        width: 25%;
+        width: 18%;
     }
     
     .toBig {
-        width: 20%;
+        width: 13%;
     }
     
     .toSmall {
-        width: 30%;
+        width: 23%;
     }
     
 
