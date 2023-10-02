@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
             feedItem[8].classList.add("responsiveIg");       
             
         }
-      }, 3000);
+      }, 5000);
     
 })
