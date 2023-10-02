@@ -183,6 +183,9 @@ h2 {
     .spotify {
         height: 120vh;
     }
+    .contact {
+        height: unset;
+    }
 
 
 }
