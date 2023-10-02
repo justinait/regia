@@ -25,7 +25,6 @@
     border-radius: 10px;
     aspect-ratio: 1/1;
     border: #FFF223 1.7px solid;
-
     box-shadow: #00000062 1px 1px 10px 0px;
 }
 
@@ -84,4 +83,12 @@
     .service {
         font-size: 1em;
     }
+/*     
+    .servicePhoto:hover {
+        display: none;
+        
+    }
+    .servicePhoto:hover  ~ .serviceDescription{
+        display: block;
+    } */
 }
