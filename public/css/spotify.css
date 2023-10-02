@@ -30,12 +30,18 @@
 
 @media (min-width: 1000px) {
 
+    .playlistDescription {
+        font-size: smaller;
+    }
     .spotifyContainer {
         flex-wrap: unset;
         margin-top: unset;
         justify-content: space-around;
     }
     
+    .spotifyIcon {
+        width: 155px;
+    }
     .playlistContainer {
         width: 22%;
     }

@@ -1,10 +1,10 @@
 .navbar {
     background-color: #FD0072;
-    height: 11vh;
+    height: 9vh;
     display: flex;
     position: sticky;
     z-index: 11;
-    top: 89vh;
+    top: 91vh;
     padding: 2%;
     
     box-shadow: 0 0 10px #FD0072;/* esto asi no igual, me dijo fucsia mas oscuro, nose ver bn */
@@ -12,21 +12,21 @@
 }
 
 .navbarItem {
-    width: 40px;
+    width: 30px;
     display: block;
 }
 
 .navbarItemActive {
     display: none;
-    width: 40px;
+    width: 30px;
 }
 
 .toBig {
-    width: 35px;
+    width: 25px;
 }
 
 .toSmall {
-    width: 45px;
+    width: 35px;
 }
 
 
