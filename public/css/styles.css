@@ -156,10 +156,10 @@ h2 {
 @media (min-width: 1000px) {
     .background-image {
         background-image: url('../img/backgrounds/Fondo-desktop.jpg');
-        height: 1182vh;
+        height: 1192vh;
     }
     .web {
-        height: 1182vh;
+        height: 1192vh !important;
     }
     * {
         font-size: 1.8vw;
@@ -184,7 +184,7 @@ h2 {
         height: 120vh;
     }
     .contact {
-        height: unset;
+        height: 110vh;
     }
 
 
@@ -192,7 +192,7 @@ h2 {
 
 @media (min-width: 700px) {
     .about {
-        margin-top: 20vh;
+        margin-top: 10vh;
     }
 }
 

@@ -124,7 +124,7 @@
 @media (min-width: 1000px) {
     .background-image {
         background-image: url('../img/backgrounds/Fondo-desktop.jpg');
-        height: 1162vh;
+        height: 1182vh;
     }
     .web {
         height: 1182vh;
@@ -152,7 +152,7 @@
         height: 240vh;
     }
     .spotify {
-        height: 100vh;
+        height: 115vh;
     }
 
 }
