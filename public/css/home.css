@@ -1,6 +1,8 @@
 .title {
     width: 250px;
-    margin: -80px auto auto auto;
+    /* margin: -80px auto auto auto; */
+    margin: auto;
+    padding-top: 30vh;
     display: flex;
 }
 

@@ -62,10 +62,10 @@
         height: 200vh;
     }
     .spotify {
-        height: 100vh;
+        height: 85vh;
     }
     .contact {
-        height: 95vh;
+        /* height: 95vh; */
     }
     .navbar {
         top: 91vh;
@@ -124,7 +124,7 @@
 @media (min-width: 1000px) {
     .background-image {
         background-image: url('../img/backgrounds/Fondo-desktop.jpg');
-        height: 1182vh;
+        height: 1162vh;
     }
     .web {
         height: 1182vh;
@@ -152,7 +152,7 @@
         height: 240vh;
     }
     .spotify {
-        height: 120vh;
+        height: 100vh;
     }
 
 }
