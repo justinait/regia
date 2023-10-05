@@ -62,10 +62,10 @@
         height: 200vh;
     }
     .spotify {
-        height: 100vh;
+        height: 85vh;
     }
     .contact {
-        height: 95vh;
+        /* height: 95vh; */
     }
     .navbar {
         top: 91vh;
@@ -152,7 +152,7 @@
         height: 240vh;
     }
     .spotify {
-        height: 120vh;
+        height: 115vh;
     }
 
 }
